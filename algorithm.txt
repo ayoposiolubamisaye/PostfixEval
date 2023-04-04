@@ -1,0 +1,16 @@
+1. Create stack class
+2.Import java util stack
+3.create a public boolean method,char at parameter, that returns if the operator value from user input is true (mult, div, add, sub)
+4. create a public int method to evaluate postfix, with a string expression as a parameter
+Create stack constructor for integer values
+loop through string of characters
+a. create a public boolean method that returns if stack is empty or not
+if operator scanned is a number, it will be pushed to the stack
+otherwise if the scanned character is an operator it pop two integers from the stack, and it is applied to the operator
+if the operator is + it will add the two values popped and pushes them to the stack, this is likewise for multiplication ,division, and subtraction only
+it breaks after each case
+at the end of the loop it pops the stack which should be a single int value
+5. Make sure the value entered can only be +,-,/ and *, it prompts the user to give valid input if invalid and numbers must be integers or an exception will occur and prompt user to give another response
+6. Continuing the main method, it instantiates constructor and then outputs the method from the valid user input.
+7. In the while loop it keeps asking user for input unless they type 'Quit'.
+
